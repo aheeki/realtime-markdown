@@ -1,0 +1,33 @@
+{
+  "name": "realtimemarkdownviewer",
+  "version": "1.0.0",
+  "description": "Realtime Markdown Viewer",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewheekin/realtime-markdown.git"
+  },
+  "keywords": [
+    "markdown",
+    "realtime"
+  ],
+  "author": "Andrew Heekin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrewheekin/realtime-markdown/issues"
+  },
+  "homepage": "https://github.com/andrewheekin/realtime-markdown#readme",
+  "dependencies": {
+    "ejs": "^2.3.3",
+    "express": "^4.13.3",
+    "redis": "^0.12.1",
+    "share": "^0.6.3"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.3.x"
+  }
+}
